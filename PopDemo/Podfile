@@ -1,0 +1,7 @@
+xcodeproj "/Users/xiongzenghui/source/facebook_pop_animation/PopDemo/PopDemo.xcodeproj"
+link_with 'PopDemo'
+
+target :'PopDemo' do  
+platform :ios ,'7.0'  
+pod 'pop', '~> 1.0'
+end 

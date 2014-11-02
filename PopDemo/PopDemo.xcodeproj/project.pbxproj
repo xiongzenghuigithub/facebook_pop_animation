@@ -21,6 +21,8 @@
 		21B913BB1A05EC1E00D28794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B9139D1A05EC1E00D28794 /* UIKit.framework */; };
 		21B913C31A05EC1E00D28794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B913C11A05EC1E00D28794 /* InfoPlist.strings */; };
 		21B913C51A05EC1E00D28794 /* PopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B913C41A05EC1E00D28794 /* PopDemoTests.m */; };
+		21B913D21A067E8100D28794 /* PopUpAndDecayMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B913D11A067E8100D28794 /* PopUpAndDecayMoveController.m */; };
+		21B913D51A0685A400D28794 /* FlyInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B913D41A0685A400D28794 /* FlyInViewController.m */; };
 		995141C8A9133AD2369A765B /* libPods-PopDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0474BBF71DCBE0F6CF64E2 /* libPods-PopDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,10 @@
 		21B913C01A05EC1E00D28794 /* PopDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopDemoTests-Info.plist"; sourceTree = "<group>"; };
 		21B913C21A05EC1E00D28794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21B913C41A05EC1E00D28794 /* PopDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemoTests.m; sourceTree = "<group>"; };
+		21B913D01A067E8100D28794 /* PopUpAndDecayMoveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpAndDecayMoveController.h; sourceTree = "<group>"; };
+		21B913D11A067E8100D28794 /* PopUpAndDecayMoveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpAndDecayMoveController.m; sourceTree = "<group>"; };
+		21B913D31A0685A400D28794 /* FlyInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyInViewController.h; sourceTree = "<group>"; };
+		21B913D41A0685A400D28794 /* FlyInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyInViewController.m; sourceTree = "<group>"; };
 		71A158A07D3BF13A06E45CC6 /* Pods-PopDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopDemo/Pods-PopDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		869B21CE6268A9956D8FF2DA /* Pods-PopDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopDemo/Pods-PopDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FF0474BBF71DCBE0F6CF64E2 /* libPods-PopDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,10 @@
 				21B913AF1A05EC1E00D28794 /* ViewController.m */,
 				21B913B11A05EC1E00D28794 /* Images.xcassets */,
 				21B913A01A05EC1E00D28794 /* Supporting Files */,
+				21B913D01A067E8100D28794 /* PopUpAndDecayMoveController.h */,
+				21B913D11A067E8100D28794 /* PopUpAndDecayMoveController.m */,
+				21B913D31A0685A400D28794 /* FlyInViewController.h */,
+				21B913D41A0685A400D28794 /* FlyInViewController.m */,
 			);
 			path = PopDemo;
 			sourceTree = "<group>";
@@ -300,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B913D21A067E8100D28794 /* PopUpAndDecayMoveController.m in Sources */,
+				21B913D51A0685A400D28794 /* FlyInViewController.m in Sources */,
 				21B913B01A05EC1E00D28794 /* ViewController.m in Sources */,
 				21B913AA1A05EC1E00D28794 /* AppDelegate.m in Sources */,
 				21B913A61A05EC1E00D28794 /* main.m in Sources */,
